@@ -1,0 +1,1302 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* MyInfo page html desgin *******************************************/
+.My-FullName{
+    width: 200px;
+    height: 500px;
+    border: 4px solid;
+    margin-left: 40%;
+    margin-top: 5%;
+    box-shadow: 1px 1px 32px 2px #252c40;
+    background-color: antiquewhite;
+}
+.Myname{
+    writing-mode: vertical-lr;
+    font-family: Myname;
+    color: #252c40;
+    font-size: 50px;
+    padding: 56px;
+
+}
+.Myname::first-letter{
+    font-family: 'Rakkas', cursive;
+    color: pink;
+    text-shadow: 1px 1px 4px #CCC;
+    text-shadow: 3px 3px 15px #0a0a0a;
+
+}
+.Myname::after{
+    content: "عبد الهادي";
+}
+@font-face{
+    src: url(../font/ArefRuqaa-Regular.ttf);
+    font-family: Myname;
+}
+/*columns page html desgin  ******************************************/
+#Manar{
+padding: 10px;
+text-align: center;
+}
+.columns{
+    direction: rtl;
+}
+.para{
+    column-count: 4;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-color: royalblue;
+    column-rule-width: 2px;
+    font-family: Myname;
+    padding: 10px;
+    margin-left: 10px;
+    line-height: 2.5;
+    float: right;
+    text-align: right;
+}
+.para::first-line{
+    font-weight: bold;
+    color: royalblue;
+}
+/* Index page html desgin ********************************************************************/
+.clear{
+    clear: both;
+}
+/* @font-face{
+    font-family: 'Amaranth', sans-serif;
+    src: url(../font/Amaranth-Bold.ttf);
+    
+
+} */
+#header{
+    width: 100%;
+    height: 70px;
+    padding: 0px 90px;
+    border-bottom: 1px solid #CCC
+}
+.header-logo{
+    float: left;
+    width: 25%;
+    position: relative;
+}
+.header-nav{
+    float: right;
+    width: 60%;
+    margin-right: 7%;
+    height: 100%;
+    padding-top: 26px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-heading{
+    position: absolute;
+    top: 21px;
+    left: 77px;
+}
+.title{
+    letter-spacing: 4px;
+    font-weight: 100;
+    font-family: sans-serif;
+    font-size: 28px;
+    color: #084753;
+}
+.user{
+    font-size: 45px;
+    color: #27a9a4;
+    animation: user 3s infinite;
+    transform: rotate(360deg);
+}
+@keyframes user{
+    to{
+        transform: rotate(0deg);
+    }
+    from{
+        transform: rotate(360deg);
+    }
+}
+.logo-icon{
+    position: absolute;
+    top: 14px;
+    left: 14px;
+}
+.active{
+    text-transform: uppercase;
+    font-family: 'Amaranth', sans-serif;
+    color: #223e5c;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 50px;
+    text-align: center;
+    margin: auto;
+}
+.active-navitem{
+    text-transform: uppercase;
+    font-family: 'Amaranth', sans-serif;
+    color: #223e5c;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    margin: auto;
+}
+.active:hover,.active-navitem:hover{
+    color: #27a9a4;
+    font-size: 15px;
+}
+.How-it-work-div{
+    margin-right: 50px;
+}
+
+.How-it-work-divs{
+    width: 15%;
+}
+
+/* start design Introducation section-------------- */
+#talk-Resolve{
+    width: 100%;
+    padding: 74px 30px;
+    min-height: 600px;
+}
+.heading{
+    color: #0c2d4e;
+    font-size: 44px;
+    font-family: sans-serif;
+}
+.main-head{
+    padding-left: 119px;
+}
+.General-description{
+    width: 46%;
+    float: left;
+    padding-left: 9%;
+    padding-top: 3%
+}
+.General-description p{
+    width: 79%;
+    line-height: 2.5;
+    font-family: 'Amaranth', sans-serif;
+    color: #7d7d7d;
+    font-size: 17px;
+  
+}
+.GET-STARTED{
+        border-radius: 14px;
+        padding: 13px;
+        background-color: #27a9a4;
+        color: #fff;
+        font-weight: bold;
+        font-family: sans-serif;
+        margin-top: 11%;
+        margin-left: 6%;
+        border: none;
+ }
+ .GET-STARTED:hover{
+    background-color: #fff;
+    color:#27a9a4 ;
+    border:1px solid #27a9a4;
+} 
+
+.Be-happier{
+    float: right;
+    width: 54%;
+}
+/* start design mentel health section-------------- */
+.mental-health{
+    width: 100%;
+    min-height: 650px;
+    padding: 74px 30px;
+}
+
+.Mental-health-title{
+    text-align: center;
+    color: #0c2d4e;
+    font-size: 32px;
+    font-family: sans-serif;
+}
+.complete-health hr{
+    width: 9%;
+    margin: auto;
+    border: 1px solid #247f7c;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.health-para{
+    text-align: center;
+    font-family: 'Amaranth', sans-serif;
+    color: #7d7d7d;
+    width: 44%;
+    margin: auto
+}
+.sub-div1{
+    width: 27%;
+    height: 312px;
+    margin-top: 5%;
+    margin-right: 7%;
+    padding: 10px;
+    float: left;
+    box-shadow: -0.5px -0.5px 1.5px #CCC, 0.5px 0.5px 2px #CCC;
+    margin-left: 3%;
+}
+.sub-div2{
+    width: 27%;
+    height: 312px;
+    margin-top: 5%;
+    margin-right: 7%;
+    padding: 10px;
+    float: left;
+    box-shadow: -0.5px -0.5px 1.5px #CCC, 0.5px 0.5px 2px #CCC;
+}
+.sub-div3{
+    width: 27%;
+    height: 312px;
+    margin-top: 5%;
+    padding: 10px;
+    float: left;
+    box-shadow: -0.5px -0.5px 1.5px #CCC, 0.5px 0.5px 2px #CCC;
+}
+.sub-div2:hover,.sub-div1:hover,.sub-div3:hover{
+    box-shadow: -0.5px -0.5px 7.5px #CCC, 0.5px 0.5px 1px #CCC;
+}
+.user-div{
+    width: 12%;
+    padding: 11px 8px;
+    margin: auto;
+    background-color: #fd7356;
+    border-radius: 8px;
+    margin-bottom: 5%;
+    margin-top: 8px;
+}
+.user-connect{
+    font-size: 25px;
+    text-align: center;
+    color:#fff;
+}
+.laptop-div{
+    width: 12%;
+    padding: 11px 8px;
+    margin: auto;
+    background-color: #e1a43c;
+    border-radius: 8px;
+    margin-bottom: 5%;
+    margin-top: 8px;
+}
+.laptop{
+    font-size: 24px;
+    text-align: center;
+    color:#fff;
+}
+.shield-div{
+    width: 12%;
+    padding: 11px 8px;
+    margin: auto;
+    background-color: #56adc2;
+    border-radius: 8px;
+    margin-bottom: 5%;
+    margin-top: 8px;
+}
+.shield{
+    font-size: 24px;
+    text-align: center;
+    color:#fff;
+}
+.h4{
+    text-align: center;
+    font-family: sans-serif;
+    color: #223e5c;
+}
+.hr{
+    width: 15%;
+    margin: auto;
+    border: 1px solid #4b587c;
+    margin-bottom: 6%;
+    margin-top: 2%;
+}
+.Health-info{
+    font-family: 'Amaranth', sans-serif;
+    color: #7d7d7d;
+    padding-left: 57px;
+    width: 80%;
+    text-align: center;
+    line-height: 1.5;
+}
+.tryNow{
+    border-radius: 14px;
+    padding: 13px;
+    background-color: #27a9a4;
+    color: #fff;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 7%;
+    margin-left: 47%;
+    border: none;
+}
+.tryNow:hover{
+    background-color: #fff;
+    color:#27a9a4 ;
+    border:1px solid #27a9a4;
+}
+
+ /* start How it work section  *********************/
+ .How-it-work-section{
+    width: 100%;
+    padding: 74px 30px;
+    min-height: 640px;
+    margin-top: 4%;
+ }
+ .how-Work-title{
+   
+    color: #0c2d4e;
+    font-size: 32px;
+    font-family: sans-serif;
+ }
+.title-para{
+    width: 46%;
+    float: left;
+    padding-left: 9%;
+    padding-top: 3%;
+}
+ .title-para hr{
+    width: 12%;
+    border: 1px solid #247f7c;
+    margin-top: 1%;
+    margin-bottom: 1%
+ }
+ .How-it-work-info{
+    width: 65%;
+    float: left;
+    line-height: 2;
+    color: #7d7d7d;
+    font-family: 'Amaranth', sans-serif;
+    margin-top: 4%;
+ }
+.How-it-work-img{
+    float: right;    
+    width: 54%;
+}
+
+/* start How-stressed-are-you section******** */
+.How-stressed-are-you{
+    background: url(../image/speed-motion-futuristic-blue-background_23-2148400715.jpg) center center no-repeat;
+    background-color: #000;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 280px;
+}
+h2.How-stressed {
+    font-size: 44px;
+    color: #dcdbdb;
+    padding: 67px 296px;
+    font-family: sans-serif;
+}
+.How-stressed-are-you p{
+    color: #dcdbdb;
+    font-family: 'Amaranth', sans-serif;
+    padding: 0px 313px;
+    font-size: 17px;
+}
+.How-stressed-are-you button{
+    float: right;
+    width: 16%;
+    padding: 13px 18px;
+    margin: -92px 27%;
+    border-radius: 27px;
+    border: none;
+    background-color: #dcdbdb;
+    color: #c94634;
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: bold;
+}
+.How-stressed-are-you button:hover{
+    background-color: #fd7356;
+    color: #dcdbdb;
+    font-weight: bolder;
+}
+/*  start Get started section****************/
+.Get-started-section{
+    width: 100%;
+    padding: 74px 30px;
+    min-height: 865px;
+    background-color: #eff8fb;
+}
+.getStart-heading{
+    color: #0c2d4e;
+    font-size: 32px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.Get-started{
+    margin-bottom: 7%;
+}
+.getStart-hr{
+    width: 6%;
+    border: 1px solid #247f7c;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%
+}
+.sub-divs-info{
+    float: left;
+    width: 24%;
+    height: 280px;
+    background-color: #FFF;
+    margin-bottom: 8%;
+    margin-right: 1%;
+    position: relative;
+}
+.sub-divs{
+    float: left;
+    width: 24%;
+    height: 280px;
+    background-color: #FFF;
+    margin-bottom: 8%;
+    position: relative;
+}
+.riangles{
+    position: absolute;
+ 
+    top: -15px;
+    left: 117px;
+}
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 28px solid transparent;
+	border-left: 53px solid rgb(238, 95, 62);
+    border-bottom: 28px solid transparent;
+    border-radius: 9px;
+    position: absolute;
+    top: -31px;
+    left: 142px;
+    z-index: 1;
+}
+.First-sub-divs,.second-sub-div  {
+    margin-left: 3%;
+}
+/* .triangle-right-border{
+    width: 0;
+	height: 0;
+	border-top: 28px solid transparent;
+	border-left: 53px solid rgb(75, 107, 160);
+    border-bottom: 28px solid transparent;
+    border-radius: 9px;
+    position: absolute;
+    top: -31px;
+    left: 115px;
+} */
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 55px solid #f38c748a ;
+    border-radius: 9px;
+    position: absolute;
+    top: -24px;
+    left: 131px;
+    transform: skew(6deg);
+}
+.second-sub-div .triangle-right{
+    border-left: 53px solid rgb(36, 127, 124);
+}
+.second-sub-div .triangle-down{
+    border-top: 55px solid  #0397c754;
+}
+.num{
+    text-shadow: 0px -1px 2px;
+    position: absolute;
+    top: -13px;
+    left: 153px;
+    z-index: 2;
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+.h5{
+    color: #0c2d4e;
+    font-family: sans-serif;
+    text-align: center;
+     
+    margin-bottom: 13px;
+    margin-top: 16px;
+    font-size: 17px;
+}
+.question-mark,.file,.lightbulb,.check,.comments,.hand,.headphones,.user-icon{
+    color: #fff;
+    font-size: 26px;
+}
+
+.question-mark-div,.file-div,.check-div,.hand-div{
+    width: 17%;
+    margin-top: 18%;
+    padding: 12px 0px;
+    margin: auto;
+    background-color: rgb(238, 95, 62);
+    text-align: center;
+    margin-top: 17%;
+    border-radius: 15px;
+}
+.user-icon-div,.headphones-div,.comments-div,.lightbulb-div{
+    width: 17%;
+    margin-top: 18%;
+    padding: 12px 0px;
+    margin: auto;
+    background-color: rgb(36, 127, 124);
+    text-align: center;
+    margin-top: 17%;
+    border-radius: 15px;
+}
+p.get-started-info {
+    color: #939EB8;
+    line-height: 1.4;
+    font-size: 15px;
+    font-family: 'Amaranth', sans-serif;
+    padding: 3px 36px;
+    text-align: center;
+}
+
+.CONNECT-NOW{
+    border-radius: 14px;
+    padding: 13px;
+    background-color: #27a9a4;
+    color: #fff;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 7%;
+    margin-left: 45%;
+    border: none;
+}
+.CONNECT-NOW:hover{
+    background-color: #fff;
+    color:#27a9a4 ;
+    border:1px solid #27a9a4;
+}
+.connect-Now-info{
+    text-align: center;
+    margin-top: 30px;
+    color: #939EB8;
+    font-family: 'Amaranth', sans-serif;
+}
+
+/* start Our platform section ******************************* */
+.platform{
+    width: 100%;
+    padding: 74px 30px;
+    min-height: 730px;
+}
+.first-part{
+    float: left;
+    margin-left: 3%;
+}
+.Our-platform{
+    color: #0c2d4e;
+    font-size: 42px;
+    font-family: sans-serif;
+}
+.Our-platform-hr{
+    width: 14%;
+    border: 1px solid #247f7c;
+    margin-top: 1%;
+    margin-bottom: 1%
+}
+.check-icon{
+    font-size: 18px;
+    color: #fff;
+}
+.check-icon-div{
+    width: 34px;
+    padding: 6px 0px;
+    background-color: #ee5f3ec4;
+    border-radius: 13px;
+    text-align: center;
+}
+.border-icon{
+    width: 39px;
+    padding: 2px 1px;
+    border: 1px solid #f2846b;
+    border-radius: 13px;
+    text-align: center;
+    float: left;
+    margin-right: 28px;
+}
+li {
+    list-style: none;
+    margin-top: 35px;
+    height: 45px;
+}
+.platform p{
+    font-family: 'Amaranth', sans-serif;
+    color: #939EB8;
+}
+.LearnMore{
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #247f7c;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Amaranth', sans-serif;
+    margin-top: 17%;
+    margin-left: 16%;
+    border: none;
+    width: 25%;
+    font-size: 17px;
+}
+.LearnMore:hover{
+    background-color: #fff;
+    color:#247f7c ;
+    border:1px solid #247f7c;
+
+} 
+.rigth-images-div{
+    float: right;
+    margin-right: 10%;
+}
+
+.app-store {
+    width: 242px;
+}
+img.google-play {
+    width: 244px;
+}
+.download-div {
+    text-align: center;
+    margin: 18px 0px;
+    font-size: 27px;
+}
+a.download-now {
+    text-decoration: none;
+    color: #247f7c;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+/* start have-Questions section************* */
+.have-Questions{
+    width: 100%;
+    padding: 74px 30px;
+    min-height: 640px;
+}
+.have-Questions-heading h3{
+    color: #0c2d4e;
+    font-size: 38px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.have-Questions-heading hr{
+    width: 10%;
+    border: 1px solid #247f7c;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin:auto;
+}
+.connect-now{
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #27a9a4;
+    color: #fff;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 6%;
+    margin-left: 45%;
+    border: none;
+}
+.connect-now:hover{
+    background-color: #fff;
+    color:#247f7c ;
+    border:1px solid #247f7c;
+    transform: scalex(0.9);
+} 
+.specilistes1,.specilistes2,.specilistes3,.specilistes4,.specilistes5,.specilistes6{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    transition:transform 1s ;
+}
+.specilistes1:hover,.specilistes2:hover,.specilistes3:hover,.specilistes4:hover,.specilistes5:hover,.specilistes6:hover{
+    transform: scale(1.5);
+    box-shadow: 1px 1px 17px #68686a;
+    cursor: pointer;
+}
+.converstion-divs{
+    background-color: #e5eef1;
+    width: 100%;
+    height: 880px;
+    margin-top: 5%;
+    position: relative;
+}
+.chat-img-div1{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.chat-img-div2 {
+    position: absolute;
+    top: 50px;
+    left: 46%;
+}
+.chat-img-div3{
+    position: absolute;
+    top: 20%;
+    right: 8%;
+}
+.chat-img-div4{
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+}
+.chat-img-div5{
+    position: absolute;
+    bottom: 50px;
+    left: 46%;
+}
+.chat-img-div6{
+    position: absolute;
+    bottom: 20%;
+    right: 8%;
+}
+
+.sub-heading-div{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+.sub-heading-div h4{
+    color: #0c2d4e;
+    font-size: 47px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.sub-heading-div hr{
+    width: 20%;
+    border: 1px solid #247f7c;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin:auto;
+}
+.sub-heading-div p{
+    color: #7d7d92;
+    font-family: 'Amaranth', sans-serif;
+    margin-top: 4%;
+    text-align: center;
+}
+.EXPLORE-NOW{
+    border-radius: 14px;
+    padding: 13px;
+    background-color: #27a9a4;
+    color: #fff;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 7%;
+    margin-left: 41%;
+    border: none;
+}
+.EXPLORE-NOW:hover{
+    background-color: #fff;
+    color:#27a9a4 ;
+    border:1px solid #27a9a4;
+}
+.chating-div{
+    position: relative;
+    width: 190px;
+    height: 45px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px #ccc;
+    font-family: 'Amaranth', sans-serif;
+    color: #0c2d4e;
+}
+.chating-div::before{
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 18px solid #fff;
+    border-radius: 9px;
+    position: absolute;
+    top: 40px;
+    left: 5px;
+    transform: skew(-24deg);
+
+}
+/* start What Our User say**************************** */
+.What-our-user-say{
+    width: 100%;
+    padding: 74px 0px;
+    min-height: 740px;
+}
+.heading-hr h4 {
+    color: #0c2d4e;
+    font-size: 38px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.heading-hr hr {
+    width: 10%;
+    border: 1px solid #247f7c;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin:auto;
+}
+.background{
+    height: 300px;
+    background-color: #25a29e;
+    margin-top: 5%;
+    position: relative;
+}
+.overlay{
+    margin-top: 5%;
+    height: 300px;
+    background-color: rgba(0, 0, 0,0.2);
+    position: relative;
+}
+.user-image-1,.user-image-2,.user-image-3 {
+    border-radius: 50%;
+    width: 75px;
+    position: absolute;
+    top: -42px;
+    left: 39%;
+    transition: transform 3s;
+}
+.user-image-1:hover,.user-image-2:hover,.user-image-3:hover{
+    transform: scale(1.5);
+    box-shadow: 1px 1px 17px #68686a;
+    cursor: pointer;
+}
+
+.users-information {
+    position: absolute;
+    top: 111px;
+    left: 185px;
+    height: 300px;
+}
+.User-info {
+    width: 25%;
+    height: 110%;
+    background-color: #fff;
+    float: left;
+    margin-right: 4%;
+    border-radius: 20px;
+    padding: 15px 25px;
+    position: relative;
+    box-shadow: 0.5px 0.5px 0px #ccc, 0.5px 0.5px 6px #ccc;
+}
+h5.user-Name {
+    text-align: center;
+    font-size: 19px;
+    color: #0c2d4e;
+    font-family: 'Amaranth', sans-serif;
+    margin-top: 48px;
+    text-transform: capitalize;
+}
+h6.user-company {
+    text-align: center;
+    color: #757575;
+    font-size: 13px;
+    margin-top: 10px;
+    font-family: 'Amaranth', sans-serif;
+}
+.User-info p{
+    color: #7d7d92;
+    font-family: 'Amaranth', sans-serif;
+    margin-top: 35px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.left-div,.right-div{
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 12%;
+    background-color: #1e827e2b;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 8px
+}
+.right,.left{
+    color: #1e827e;
+    font-size: 20px;
+}
+.left-div{
+    margin-left: 44%;
+    margin-right: 57px;
+}
+
+/*  start Latest Bolg Posts ****************** */
+.Latest-Bolg-section{
+    width: 100%;
+    padding: 74px 30px;
+    min-height: 990px;
+}
+.lastest-bolg-heading h4{
+    color: #0c2d4e;
+    font-size: 38px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 1%;
+}
+.lastest-bolg-heading hr{
+    width: 10%;
+    border: 1px solid #247f7c;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin:auto;
+}
+.lastest-bolg-heading p{
+    text-align: center;
+    font-family: 'Amaranth', sans-serif;
+    color: #7d7d7d;
+    width: 44%;
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+.First-post {
+    float: left;
+    width: 25%;
+    height: 528px;
+    margin-right: 70px;
+    margin-left: 107px;
+    border-radius: 12px;
+    box-shadow: 0.2px 0.2px 5px #ccc, 0.2px 0.2px 5px #ccc;
+}
+.post-2{
+    float: left;
+    width: 25%;
+    height: 528px;
+    margin-right: 70px;
+    border-radius: 12px;
+    box-shadow: 0.2px 0.2px 5px #ccc, 0.2px 0.2px 5px #ccc;
+}
+.post-3{
+    float: left;
+    width: 25%;
+    height: 528px;
+    border-radius: 12px;
+    box-shadow: 0.2px 0.2px 5px #ccc, 0.2px 0.2px 5px #ccc;
+}
+
+.clock{
+    font-size: 17px;
+    position: absolute;
+    right: 108px;
+    top: 11px;
+    color: #585859;
+}
+.contant{
+    position: absolute;
+    top: 11px;
+    right: 12px;
+    font-family: 'Amaranth', sans-serif;
+    color: #585859;
+}
+
+.Author-img{
+    border-radius: 50%;
+    width: 42px;
+    position: absolute;
+    left: 5px;
+    transition:transform 3s;
+}
+
+ .Author-img:hover{
+    transform: rotate(360deg);
+    opacity: 0.8;
+} 
+.post-img {
+    width: 100%;
+    min-width: 100%;
+    height: 210px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+.caption-img {
+    font-size: 27px;
+    font-family: 'Amaranth', sans-serif;
+    color: #0c2d4e;
+    padding: 10px;
+}
+.Author-info {
+    width: 100%;
+    position: relative;
+    height: 45px;
+}
+.Author-name {
+    position: absolute;
+    left: 65px;
+    font-size: 15px;
+    top: 11px;
+    font-family: 'Amaranth', sans-serif;
+    color: #0c2d4e;
+}
+.post-contant {
+    margin-top: 10px;
+    padding: 10px;
+    text-align: justify;
+    font-size: 19px;
+    color: #7d7d92;
+    font-family: 'Amaranth', sans-serif;
+    margin-bottom: 12px;
+}
+.footer-Post {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.likes-div {
+    float: left;
+    text-align: center;
+    font-family: 'Amaranth', sans-serif;
+    color: #585859;
+}
+.comment-div{
+    font-family: 'Amaranth', sans-serif;
+    color: #585859;
+    float: left;
+}
+.post-contant-hr {
+    border: 0.2px solid #ccc;
+}
+.View-More-button{
+    border-radius: 14px;
+    padding: 15px;
+    background-color: #27a9a4;
+    color: #fff;
+    font-family: sans-serif;
+    margin-top: 3%;
+    margin-left: 46%;
+    border: none;
+
+}
+.View-More-button:hover{
+    background-color: #fff;
+    color:#27a9a4 ;
+    border:1px solid #27a9a4;
+  
+}
+/* start footer section******************************** */
+
+footer{
+    position: relative;
+    width: 100%;
+    /* background: url(../image/speed-motion-futuristic-blue-background_23-2148400715.jpg) center center no-repeat; */
+    background-color: #023982;
+    background-size: cover;
+    min-height: 500px;
+    padding: 94px 20px 10px 20px;
+    margin-top: 12%;
+    color: #fff;
+}
+/* .overlay-2{
+ width: 100%;
+    background-color: rgba(0, 0, 0,0.2);
+    background-size: cover; 
+} */
+.Happay-Place-section{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 80%;
+    padding: 10px;
+    position: absolute;
+    top: -194px;
+    left: 10%;
+    height: 270px;
+    box-shadow: 1px 0px 3px #ccc, 1px 1px 4px #ccc;
+
+}
+.Happay-Place-div h4{
+    color: #0c2d4e;
+    font-size: 38px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+.Happay-Place-div hr{
+    width: 10%;
+    border: 1px solid #247f7c;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin:auto;
+  
+}
+.happy-place-info{
+    text-align: center;
+    font-family: 'Amaranth', sans-serif;
+    color: #7d7d7d;
+    width: 44%;
+    margin: auto;
+    margin-top: 3%;
+}
+.input-sent {
+    width: 67%;
+    height: 44px;
+    border-radius: 11px;
+    border: none;
+    margin-left: 5%;
+    background-color: #e5eef1;
+    margin-top: 3%;
+    padding-left: 3%;
+}
+.input-sent:focus{
+   outline: 0;
+    border-radius: 11px;
+    border:1px solid #27a9a4;
+}
+input[placeholder="Enter Your mail address here"]{
+    font-family: 'Amaranth', sans-serif;
+    color: #7d7d7d;
+   font-size:15px;
+}
+
+.send{
+    border-radius: 14px;
+    padding: 13px;
+    background-color: #27a9a4;
+    color: #fff;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: none;
+    margin-top: 3%;
+    float: right;
+    margin-right: 18%;
+    width: 10%;
+}
+.send:hover{
+    background-color: #fff;
+    color:#27a9a4 ;
+    border:1px solid #27a9a4;
+    transform: scalex(0.9);
+}
+.Quick-Links,.Lagel-Stuff{
+    float: left;
+    width: 17%;
+    margin-top: 4%;
+    margin-left: 6%;
+    font-size: 19px;
+}
+.Author-contect,.form-div{
+    float: left;
+    width: 20%;
+    margin-top: 4%;
+    margin-left: 5%;
+    font-size: 19px;
+}
+.title-footer-div,.user-footer-div{
+    display: inline-block;
+    margin-bottom: 20%;
+}
+h2.title-footer {
+    letter-spacing: 4px;
+    font-weight: 100;
+    font-family: sans-serif;
+    font-size: 28px;
+    margin-left: 50px;
+}
+.user-footer {
+    font-size: 45px;
+    color: #d5f3fd;
+  
+}
+.user-footer:hover{
+    animation: user 3s infinite;
+    transform: rotate(360deg);
+}
+.map-marker,.envelope,.phone{
+    font-size: 18px;
+    margin-right: 15px;
+}
+.phone-div,.map-marker-div,.envelope-div{
+    margin-bottom: 10%; 
+    font-family: 'Amaranth', sans-serif;
+}
+.facebook-div {
+    margin-top: 20%;
+    padding: 0px 25px;
+}
+.facebook {
+    margin-right: 7%;
+}
+.facebook:hover{
+    color: #0a0a0a;
+}
+footer h5{
+    font-family: 'Amaranth', sans-serif;
+    font-size: 25px;
+}
+footer ul li{
+    font-family: 'Amaranth', sans-serif;
+    font-size: 23px;
+    
+}
+ footer a{
+    text-decoration: none;
+    color:#fff;
+}
+footer a:hover{
+    color: #0a0a0a;
+}
+/* footer a:visited{
+    color: #000;
+}
+footer a:hover{
+    color: #000;
+}
+footer a:active{
+    color: #000;
+} */
+.form-div p{
+    margin-bottom: 40px;
+    font-size: 23px;
+    font-family: 'Amaranth', sans-serif;
+    text-align: justify;
+}
+
+.copyrigth {
+    padding-top: 29%;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Amaranth', sans-serif;
+
+}
+.form-div input{
+    width: 108%;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 0px;
+    margin-bottom: 10%;
+    padding-left: 3%;
+}
+input[placeholder="Enter your phone number"]{
+    font-family: 'Amaranth', sans-serif;
+}
+
+
+.form-div button{
+    text-align: center;
+    margin-left: 28%;
+    padding: 9px 20px;
+    background-color: #d5f3fd;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Amaranth', sans-serif;
+    color: #247f7c;
+}
+.form-div button:hover{
+    background-color: #fff;
+    color:#27a9a4 ;
+    border:1px solid #27a9a4;
+}
